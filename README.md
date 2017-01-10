@@ -1,6 +1,7 @@
 ## Tim's notes
 
 [link to second page](./README2.md)
+
 ### Important links
 [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
