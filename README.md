@@ -33,3 +33,11 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+# Services offered: 
+     * Choosing a processor, RAM, hard drive storage, motherboard and graphics card to meet your needs.
+     * Finding a case & peripherals that fit your personal style and space. 
+     * Custom cooling options. 
+     * A 24 hour bench test on final build and cooling systems.  
+     * Available for hardware tech support on your custom build. 
+     * Free initial consultation. 
