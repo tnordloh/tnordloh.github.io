@@ -37,9 +37,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # Services offered: 
 
 
-     * Choosing a processor, RAM, hard drive storage, motherboard and graphics card to meet your needs.
-     * Finding a case & peripherals that fit your personal style and space. 
-     * Custom cooling options. 
-     * A 24 hour bench test on final build and cooling systems.  
-     * Available for hardware tech support on your custom build. 
-     * Free initial consultation. 
+* Choosing a processor, RAM, hard drive storage, motherboard and graphics card to meet your needs.
+* Finding a case & peripherals that fit your personal style and space. 
+* Custom cooling options. 
+* A 24 hour bench test on final build and cooling systems.  
+* Available for hardware tech support on your custom build. 
+* Free initial consultation. 
