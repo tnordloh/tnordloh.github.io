@@ -20,3 +20,22 @@ Here it is, mounted on perfboard:
 ![perfboard plant reader](./images/plant_reader_perfboard_1mb.jpg)
 Here it is, assembled:
 ![assembled plant reader](./images/plant_reader_assembled_1mb.jpg)
+
+## Snake enclosure monitor ##
+
+This project was created, to ensure that we remembered to feed snakes, once
+per week, and to make sure that, whoever fed them could signal to the rest of 
+us, that they had been fed.  It has six leds, and lights one up each day.  On 
+the seventh day, the six leds start blinking.  Additionally, there is a simple
+moisture sensor, that runs into the water bowl, which will blink separately, 
+when the water bowl is dry.
+
+
+[Here's the github repository](https://github.com/tnordloh/home_automation)
+and a couple of photos.
+
+The Perfboard:
+![perfboard snake_mail](./images/snake_mail_perfboard_1mb.jpg)
+
+Assembled:
+![assembled snake_mail](./images/snake_mail_enclosure.jpg)
