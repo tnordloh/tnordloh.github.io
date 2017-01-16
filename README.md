@@ -13,5 +13,7 @@ so I ended up using a couple of 16-port multiplexers, to allow me to address up
 to 16 sensors from a single Arduino, as well as two 8-bit shift registers, 
 to allow me to light an LED on each of the Moisture Sensor sticks.
 
+Here it is, mounted on perfboard:
+![perfboard plant reader](./images/plant_reader_perfboard_1mb.jpg)
 Here it is, assembled:
-![image](./images/plant_reader_assembled_1mb.jpg)
+![assembled plant reader](./images/plant_reader_assembled_1mb.jpg)
