@@ -14,4 +14,4 @@ to 16 sensors from a single Arduino, as well as two 8-bit shift registers,
 to allow me to light an LED on each of the Moisture Sensor sticks.
 
 Here it is, assembled:
-![image](./images/plant_readder_assembled_1mb.jpg)
+![image](./images/plant_reader_assembled_1mb.jpg)
