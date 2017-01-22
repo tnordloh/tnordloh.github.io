@@ -54,7 +54,7 @@ and a
 completed the project.  This is one the simplest projects I've built, and one of 
 the most expensive, but my desk is pretty comfortable.
 The desk in 'sit on the floor' mode:
-![when I want to sit on the floor](./images/lowered_desk.JPG)
+![when I want to sit on the floor](./images/lowered_desk.jpg)
 The desk in 'sit in the chair' mode: 
-![when I want to sit on the chair](./images/raised_desk.JPG)
+![when I want to sit on the chair](./images/raised_desk.jpg)
 
