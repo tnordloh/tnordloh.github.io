@@ -39,3 +39,22 @@ The Perfboard:
 
 Assembled:
 ![assembled snake_mail](./images/snake_mail_enclosure.jpg)
+
+## adjustable-height desk ##
+This project originated with a desire to provid more variety in seating positions.
+I get back pain, and being able to change how I sit seems to help a lot.  
+I used some metal struts from Lowes, and a couple of 
+[linear](https://www.amazon.com/WindyNation-Stroke-Linear-Actuator-Maximum/dp/B00Y1QD9AM)
+[actuators](https://www.amazon.com/Inch-Linear-Actuator-Volt-Pounds/dp/B007SJAHW2).
+
+That, in combination with
+[relay kits](https://www.amazon.com/MPC-0462-Linear-Actuators-Wiring/dp/B00LON21DQ)
+and a 
+[wireless controller](https://www.amazon.com/gp/product/B01CCSG2ZY)
+completed the project.  This is one the simplest projects I've built, and one of 
+the most expensive, but my desk is pretty comfortable.
+The desk in 'sit on the floor' mode:
+![when I want to sit on the floor](./images/lowered_desk.JPG)
+The desk in 'sit in the chair' mode: 
+![when I want to sit on the chair](./images/raised_desk.JPG)
+
