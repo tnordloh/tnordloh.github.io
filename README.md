@@ -2,7 +2,10 @@
 
 ## Contents ##
 
-* [plant monitor](#16-port-plant-monitor)
+* [plant monitor](#port-plant-monitor)
+* [plant monitor](#port-plant-monitor)
+* [snake enclosure monitor](#snake-enclosure-monitor)
+* [adjustable height desk](#adjustable-height-desk)
 
 ## 16-port plant monitor ##
 
