@@ -6,7 +6,7 @@
 * [plant monitor](#port-plant-monitor)
 * [snake enclosure monitor](#snake-enclosure-monitor)
 * [adjustable height desk](#adjustable-height-desk)
-* [WiiMotion Quad Copter](#wiimotion-quad-copter)
+* [WiiMotion Quad Copter](#wii-motion-quad-copter)
 
 ## 16-port plant monitor ##
 
