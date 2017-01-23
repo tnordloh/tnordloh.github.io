@@ -1,5 +1,9 @@
 # Electronics projects #
 
+## Contents ##
+
+* [plant monitor](#16-port-plant-monitor)
+
 ## 16-port plant monitor ##
 
 This project was created when my spouse found that the moisture sensors
