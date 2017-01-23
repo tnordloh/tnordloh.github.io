@@ -6,6 +6,7 @@
 * [plant monitor](#port-plant-monitor)
 * [snake enclosure monitor](#snake-enclosure-monitor)
 * [adjustable height desk](#adjustable-height-desk)
+* [WiiMotion Quad Copter](#wiimotion-quad-copter)
 
 ## 16-port plant monitor ##
 
@@ -65,3 +66,14 @@ The desk in 'sit on the floor' mode:
 The desk in 'sit in the chair' mode: 
 ![when I want to sit on the chair](./images/raised_desk.jpg)
 
+## wii-motion quad copter ##
+
+My son and I built this quad copter; the controller is an 
+[arduino pro mini](https://www.sparkfun.com/products/11113); you can learn more
+about it 
+[here](http://www.multiwii.com/wiki/index.php?title=Main_Page)
+recipe.
+
+The MutiWii is built from the gyroscope built into the Wii Motion Plus, 
+and the accelerometer built into the Wii Nunchuck.  It was a fun little project,
+and was actually my first introduction to Arduino.
