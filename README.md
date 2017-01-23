@@ -77,3 +77,8 @@ recipe.
 The MutiWii is built from the gyroscope built into the Wii Motion Plus, 
 and the accelerometer built into the Wii Nunchuck.  It was a fun little project,
 and was actually my first introduction to Arduino.
+Here's what the final controller looks like.  You can still see the joystick
+from the nunchuck :)
+[quad copter controller board](images/copter_close_up.jpg)
+Here's a second picture, with my hand, for scale.
+[quad copter](images/copter.jpg)
