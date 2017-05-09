@@ -48,7 +48,7 @@ Assembled:
 ![assembled snake_mail](./images/snake_mail_enclosure.jpg)
 
 ## adjustable-height desk ##
-This project originated with a desire to provid more variety in seating positions.
+This project originated with a desire to provide more variety in seating positions.
 I get back pain, and being able to change how I sit seems to help a lot.  
 I used some metal struts from Lowes, and a couple of 
 [linear](https://www.amazon.com/WindyNation-Stroke-Linear-Actuator-Maximum/dp/B00Y1QD9AM)
