@@ -6,6 +6,7 @@
 * [snake enclosure monitor](#snake-enclosure-monitor)
 * [adjustable height desk](#adjustable-height-desk)
 * [WiiMotion Quad Copter](#wii-motion-quad-copter)
+* [Flashing a bricked motherboard BIOS](#flashing-a-bricked-motherboard-bios)
 
 ## 16-port plant monitor ##
 
@@ -81,7 +82,7 @@ from the nunchuck :)
 Here's a second picture, with my hand, for scale.
 ![quad copter](images/copter.jpg)
 
-## flashing MSI 370X Pro Gaming motherboard BIOS ##
+## Flashing a bricked motherboard bios ##
 
 A few days ago, a friend asked me to troubleshoot a motherboard that was locking
 up.  I attempted to update the BIOS, and of course, it locked up, effectively
