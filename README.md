@@ -91,6 +91,7 @@ to flash the BIOS with the use of a Raspberry PI.  I used these links
 as a reference:
 
 [rPI hookup](https://forum-en.msi.com/index.php?topic=283908.msg1608415#msg1608415)
+
 [diagrams and such](https://forum-en.msi.com/index.php?topic=285607.0)
 
 The confusing part for me was, I never got to really see the wiring diagram.
