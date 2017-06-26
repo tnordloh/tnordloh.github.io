@@ -94,17 +94,26 @@ as a reference:
 
 [diagrams and such](https://forum-en.msi.com/index.php?topic=285607.0)
 
-The confusing part for me was, I never got to really see the wiring diagram.
-Also, the Raspberry PI required a couple of tweaks to get it to talk to the 
-BIOS chip; since that's not commonly used, the interface isn't enabled by 
-default.  So, here are a couple of pics, and such, to clarify the things that
-I got stuck on:
+Essentially, you can use a 'chip clip' to directly wire into the chip; the 
+chip itself uses the well-known [SPI - Serial Peripheral Interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) protocol.  So, all I needed
+to do was feed it power, connect to it correctly.  Since the motherboard was 
+a brick at this point, there was no harm in giving it a shot.  Also, looking at 
+the 'flashrom' tool, I didn't even have to implement any read/write code.  All
+I needed was a solid connection.  The guides helpfully pointed me to something
+called a [chip clip, or test clip](https://www.sparkfun.com/products/13153), which I grabbed off of Sparkfun.  This piece is cheaper elsewhere, but I live near 
+Sparkfun headquarters, so I was able to go grab it from them less than 12 hours
+after ordering it.
 
-For the Raspberry Pi, I was missing the /dev/spidev0.0 files.  Here are the 
-steps I had to take, to make them appear:
-1.  sudo apt-get update
-2.  sudo apt-get upgrade
-3.  edit the /config.txt file; I had to uncomment the line containing "dtparam=spi=on", and reboot, which made the spidev files appear.
+The online resources were really good, but they made very generous assumptions
+about how much I needed things to be spelled out.  So I'm documenting the 
+pieces that the above links failed to provide me.
+
+There were two chunks I had to puzzle out.  First, most people took pics
+of the chip clip, connected to the chip on the motherboard, but failed to 
+include a good wiring diagram.  Also, my Raspberry PI didn't have the SPI
+protocol enabled by default, so I had to do some modifications to get it to
+even 'notice' that it was attached to the BIOS chip.
+
 
 Wiring everything up.  This part was confusing, because I didn't know how to 
 map the MISO and MOSI ports -- which one goes to "SO/SI01", and which one 
@@ -115,7 +124,16 @@ Here's a pic of what that looks like
 
 and a wiring diagram, to really spell it out:
 ![wiring diagram](images/bios_wiring.png)
+
+For the Raspberry Pi, I was missing the /dev/spidev0.0 files.  Here are the 
+steps I had to take, to make them appear:
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+3.  edit the /config.txt file; I had to uncomment the line containing "dtparam=spi=on", and reboot, which made the spidev files appear.
+
 after that the instructions at the link below worked fine: 
 [rPI basic instructions](http://www.win-raid.com/t58f16-Guide-Recover-from-failed-BIOS-flash-using-Raspberry-PI.html)
-
-
