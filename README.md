@@ -136,4 +136,5 @@ sudo apt-get upgrade
 3.  edit the /config.txt file; I had to uncomment the line containing "dtparam=spi=on", and reboot, which made the spidev files appear.
 
 after that the instructions at the link below worked fine: 
+
 [rPI basic instructions](http://www.win-raid.com/t58f16-Guide-Recover-from-failed-BIOS-flash-using-Raspberry-PI.html)
