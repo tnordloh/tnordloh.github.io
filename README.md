@@ -80,3 +80,40 @@ from the nunchuck :)
 ![quad copter controller board](images/copter_close_up.jpg)
 Here's a second picture, with my hand, for scale.
 ![quad copter](images/copter.jpg)
+
+## flashing MSI 370X Pro Gaming motherboard BIOS ##
+
+A few days ago, a friend asked me to troubleshoot a motherboard that was locking
+up.  I attempted to update the BIOS, and of course, it locked up, effectively
+bricking the motherboard.  A little research, and I found that it was possible
+to flash the BIOS with the use of a Raspberry PI.  I used these links
+as a reference:
+
+[rPI hookup](https://forum-en.msi.com/index.php?topic=283908.msg1608415#msg1608415)
+[diagrams and such](https://forum-en.msi.com/index.php?topic=285607.0)
+
+The confusing part for me was, I never got to really see the wiring diagram.
+Also, the Raspberry PI required a couple of tweaks to get it to talk to the 
+BIOS chip; since that's not commonly used, the interface isn't enabled by 
+default.  So, here are a couple of pics, and such, to clarify the things that
+I got stuck on:
+
+For the Raspberry Pi, I was missing the /dev/spidev0.0 files.  Here are the 
+steps I had to take, to make them appear:
+1.  sudo apt-get update
+2.  sudo apt-get upgrade
+3.  edit the /config.txt file; I had to uncomment the line containing "dtparam=spi=on", and reboot, which made the spidev files appear.
+
+Wiring everything up.  This part was confusing, because I didn't know how to 
+map the MISO and MOSI ports -- which one goes to "SO/SI01", and which one 
+goes to "SI/SO0".  I eventually found [this link](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=136912) that labeled all of the ports; here's a pic, with what I ended up with; an external power supply, set to 1.5 volts, the chip clip seen in some of the other links, and the flashrom tool.
+
+Here's a pic of what that looks like
+![photo](images/bios_image.jpg)
+
+and a wiring diagram, to really spell it out:
+![wiring diagram](images/bios_wiring.png)
+after that the instructions at the link below worked fine: 
+[rPI basic instructions](http://www.win-raid.com/t58f16-Guide-Recover-from-failed-BIOS-flash-using-Raspberry-PI.html)
+
+
