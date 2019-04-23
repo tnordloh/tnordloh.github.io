@@ -10,8 +10,7 @@
 
 ## 16-port plant monitor ##
 
-This project was created when my spouse found that the moisture sensors
-she bought.  Unfortunately, they conumed their batteries in just a week.  She 
+This project was created when found that some moisture sensors consumed their batteries in just a week if left in the plant continually.  there were 
 had about 60 total moisture sensors, so changing batteries at that pace wasn't 
 practical.  I pulled the moisture sensors apart, and used ethernet wire to 
 connect them to an Arduino, in order to make it possible to provide external 
