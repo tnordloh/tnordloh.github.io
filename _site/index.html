@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=c82684b00b738df74d25f35eff92dee7ed4d5219" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Electronics projects # | tnordloh.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Electronics projects #" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="tnordloh.github.io" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"http://localhost:4000/","name":"tnordloh.github.io","headline":"Electronics projects #","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>tnordloh.github.io</h1>
+        </a>
+        <h2></h2>
+        
+          <a href="https://github.com/tnordloh/tnordloh.github.io" class="button"><small>View project on</small> GitHub</a>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1 id="electronics-projects">Electronics projects</h1>
+
+<h2 id="contents">Contents</h2>
+
+<ul>
+  <li><a href="#port-plant-monitor">plant monitor</a></li>
+  <li><a href="#snake-enclosure-monitor">snake enclosure monitor</a></li>
+  <li><a href="#adjustable-height-desk">adjustable height desk</a></li>
+  <li><a href="#wii-motion-quad-copter">WiiMotion Quad Copter</a></li>
+  <li><a href="#flashing-a-bricked-motherboard-bios">Flashing a bricked motherboard BIOS</a></li>
+</ul>
+
+<h2 id="16-port-plant-monitor">16-port plant monitor</h2>
+
+<p>This project was created when my spouse found that the moisture sensors
+she bought.  Unfortunately, they conumed their batteries in just a week.  She 
+had about 60 total moisture sensors, so changing batteries at that pace wasn’t 
+practical.  I pulled the moisture sensors apart, and used ethernet wire to 
+connect them to an Arduino, in order to make it possible to provide external 
+power.  There are a lot of plants to look at, so I ended up using a couple of 
+16-port multiplexers, to allow me to address up to 16 sensors from a single 
+Arduino, as well as two 8-bit shift registers, to allow me to light an LED on 
+each of the moisture sensor sticks.</p>
+
+<p><a href="https://github.com/tnordloh/arduino_16_port_plant_reader">Here’s the github repository</a>
+and a couple of photos.</p>
+
+<p>Here it is, mounted on perfboard:
+<img src="/images/plant_reader_perfboard_1mb.jpg" alt="perfboard plant reader" />
+Here it is, assembled:
+<img src="/images/plant_reader_assembled_1mb.jpg" alt="assembled plant reader" /></p>
+
+<h2 id="snake-enclosure-monitor">Snake enclosure monitor</h2>
+
+<p>This project was created, to ensure that we remembered to feed snakes, once
+per week, and to make sure that, whoever fed them could signal to the rest of 
+us, that they had been fed.  It has six leds, and lights one up each day.  On 
+the seventh day, the six leds start blinking.  Additionally, there is a simple
+moisture sensor, that runs into the water bowl, which will blink separately, 
+when the water bowl is dry.</p>
+
+<p><a href="https://github.com/tnordloh/home_automation">Here’s the github repository</a>
+and a couple of photos.</p>
+
+<p>The Perfboard:
+<img src="/images/snake_mail_perfboard_1mb.jpg" alt="perfboard snake_mail" /></p>
+
+<p>Assembled:
+<img src="/images/snake_mail_enclosure.jpg" alt="assembled snake_mail" /></p>
+
+<h2 id="adjustable-height-desk">adjustable-height desk</h2>
+<p>This project originated with a desire to provide more variety in seating positions.
+I get back pain, and being able to change how I sit seems to help a lot.<br />
+I used some metal struts from Lowes, and a couple of 
+<a href="https://www.amazon.com/WindyNation-Stroke-Linear-Actuator-Maximum/dp/B00Y1QD9AM">linear</a>
+<a href="https://www.amazon.com/Inch-Linear-Actuator-Volt-Pounds/dp/B007SJAHW2">actuators</a>.</p>
+
+<p>That, in combination with
+<a href="https://www.amazon.com/MPC-0462-Linear-Actuators-Wiring/dp/B00LON21DQ">relay kits</a>
+and a 
+<a href="https://www.amazon.com/gp/product/B01CCSG2ZY">wireless controller</a>
+completed the project.  This is one the simplest projects I’ve built, and one of 
+the most expensive, but my desk is pretty comfortable.
+The desk in ‘sit on the floor’ mode:
+<img src="/images/lowered_desk.jpg" alt="when I want to sit on the floor" />
+The desk in ‘sit in the chair’ mode: 
+<img src="/images/raised_desk.jpg" alt="when I want to sit on the chair" /></p>
+
+<h2 id="wii-motion-quad-copter">wii-motion quad copter</h2>
+
+<p>My son and I built this quad copter; the controller is an 
+<a href="https://www.sparkfun.com/products/11113">arduino pro mini</a>; you can learn more
+about it 
+<a href="http://www.multiwii.com/wiki/index.php?title=Main_Page">here</a>.</p>
+
+<p>The MutiWii is built from the gyroscope built into the Wii Motion Plus, 
+and the accelerometer built into the Wii Nunchuck.  It was a fun little project,
+and was actually my first introduction to Arduino.
+Here’s what the final controller looks like.  You can still see the joystick
+from the nunchuck :)
+<img src="/images/copter_close_up.jpg" alt="quad copter controller board" />
+Here’s a second picture, with my hand, for scale.
+<img src="/images/copter.jpg" alt="quad copter" /></p>
+
+<h2 id="flashing-a-bricked-motherboard-bios">Flashing a bricked motherboard bios</h2>
+
+<p>A few days ago, a friend asked me to troubleshoot a motherboard that was locking
+up.  I attempted to update the BIOS, and of course, it locked up, effectively
+bricking the motherboard.  A little research, and I found that it was possible
+to flash the BIOS with the use of a Raspberry PI.  I used these links
+as a reference:</p>
+
+<p><a href="https://forum-en.msi.com/index.php?topic=283908.msg1608415#msg1608415">rPI hookup</a></p>
+
+<p><a href="https://forum-en.msi.com/index.php?topic=285607.0">diagrams and such</a></p>
+
+<p>Essentially, you can use a ‘chip clip’ to directly wire into the chip; the 
+chip itself uses the well-known <a href="https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus">SPI - Serial Peripheral Interface</a> protocol.  So, all I needed
+to do was feed it power, connect to it correctly.  Since the motherboard was 
+a brick at this point, there was no harm in giving it a shot.  Also, looking at 
+the ‘flashrom’ tool, I didn’t even have to implement any read/write code.  All
+I needed was a solid connection.  The guides helpfully pointed me to something
+called a <a href="https://www.sparkfun.com/products/13153">chip clip, or test clip</a>, which I grabbed off of Sparkfun.  This piece is cheaper elsewhere, but I live near 
+Sparkfun headquarters, so I was able to go grab it from them less than 12 hours
+after ordering it.</p>
+
+<p>The online resources were really good, but they made very generous assumptions
+about how much I needed things to be spelled out.  So I’m documenting the 
+pieces that the above links failed to provide me.</p>
+
+<p>There were two chunks I had to puzzle out.  First, most people took pics
+of the chip clip, connected to the chip on the motherboard, but failed to 
+include a good wiring diagram.  Also, my Raspberry PI didn’t have the SPI
+protocol enabled by default, so I had to do some modifications to get it to
+even ‘notice’ that it was attached to the BIOS chip.</p>
+
+<p>Wiring everything up.  This part was confusing, because I didn’t know how to 
+map the MISO and MOSI ports – which one goes to “SO/SI01”, and which one 
+goes to “SI/SO0”.  I eventually found <a href="https://www.raspberrypi.org/forums/viewtopic.php?f=63&amp;t=136912">this link</a> that labeled all of the ports; here’s a pic, with what I ended up with; an external power supply, set to 1.5 volts, the chip clip seen in some of the other links, and the flashrom tool.</p>
+
+<p>Here’s a pic of what that looks like
+<img src="/images/bios_image.jpg" alt="photo" /></p>
+
+<p>and a wiring diagram, to really spell it out:
+<img src="/images/bios_wiring.png" alt="wiring diagram" /></p>
+
+<p>For the Raspberry Pi, I was missing the /dev/spidev0.0 files.  Here are the 
+steps I had to take, to make them appear:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
+sudo apt-get upgrade
+</code></pre></div></div>
+
+<ol>
+  <li>edit the /config.txt file; I had to uncomment the line containing “dtparam=spi=on”, and reboot, which made the spidev files appear.</li>
+</ol>
+
+<p>after that the instructions at the link below worked fine:</p>
+
+<p><a href="http://www.win-raid.com/t58f16-Guide-Recover-from-failed-BIOS-flash-using-Raspberry-PI.html">rPI basic instructions</a></p>
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+            <p class="repo-owner"><a href="https://github.com/tnordloh/tnordloh.github.io">tnordloh.github.io</a> is maintained by <a href="https://github.com/tnordloh">tnordloh</a>.</p>
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
