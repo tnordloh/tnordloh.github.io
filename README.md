@@ -1,4 +1,4 @@
-# Electronics projects #
+# Electronic projects #
 
 ## Contents ##
 
