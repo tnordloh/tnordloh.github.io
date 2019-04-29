@@ -36,12 +36,13 @@ prioritize removal of these pain points.  Here are some possible scenarios to th
 * If you started the script in production, when you should have run it in dev.
 
 There are two choices in these scenarios.  Frantically hit the `ctrl+c` 20 times
-in a row or let it finish.  It's good to ask the question.  Once, when I ran a script
-in the wrong environment, I panicked and killed the script with `ctrl+c`.  This ended
-up corrupting tables, and required us to do a database restore on one of our tables, 
-which couldn't handle the partial edit.  It would have been better if I'd let
-the script finish, and told him, so he could just repair the records, rather
-than killing it.  I essentially turned a 20-minute fix into a 4-hour rebuild.
+in a row, or let it finish.  It's good to ask the question.  Once, when I
+ran a script in the wrong environment, I panicked and killed the script with 
+`ctrl+c`.  This ended up corrupting tables, and required us to do a database
+restore on one of our tables, which couldn't handle the partial edit.  It 
+would have been better if I'd let the script finish, and told him, so he 
+could just repair the records, rather than killing it.  I essentially turned a
+20-minute fix into a 4-hour rebuild.
 
 My kayak instructor has seen a lot of dangerous situations in the water.  He says 
 "no one ever says 'I panicked, so did this' without whatever they did being the 
