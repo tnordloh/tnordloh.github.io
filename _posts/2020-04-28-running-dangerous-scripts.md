@@ -10,7 +10,8 @@ where there's a lot riding on the outcome.  Maybe it's a build script that can o
 be run in production, and has to be run perfectly, on the first shot.  Or maybe
 there's high visibility, where any errors during the running of the script will
 be embarrassing, in one way or another. It's possible that the script needs to be
-run because an important application or website is down.
+run because an important application or website is down, creating pressure to work
+more quickly than you want to.
 
 Ideally, your environment isn't fragile in this way, and you can build toward
 removing these kinds of system vulnerabilities.  Over the last 20 years, I've
