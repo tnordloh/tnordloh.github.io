@@ -38,7 +38,7 @@ prioritize removal of these pain points.  Here are some possible scenarios to th
 There are two choices in these scenarios.  Frantically hit the `ctrl+c` 20 times
 in a row, or let it finish.  It's good to ask the question.  Once, when I
 ran a script in the wrong environment, I panicked and killed the script with 
-`ctrl+c`.  This ended up corrupting tables, and required us to do a database
+`ctrl+c`.  This ended up corrupting tables, and required the DBA to do a
 restore on one of our tables, which couldn't handle the partial edit.  It 
 would have been better if I'd let the script finish, and told him, so he 
 could just repair the records, rather than killing it.  I essentially turned a
@@ -48,8 +48,8 @@ My kayak instructor has seen a lot of dangerous situations in the water.  He say
 "no one ever says 'I panicked, so did this' without whatever they did being the 
 right thing.  Decisions made in a panic are almost always wrong".
 
-Getting yourself into a good mindset before running a script like this is important.
-Taking that breath before hand can help you to think through whether you're totally
+Finally, finding a good mindset before running a script like this is important.
+Taking that breath beforehand can help you to think through whether you're totally
 prepared to run it, whether all the edits you made are correct, whether you're logged
 in to the right server.  There are pressures to move fast, that need to be put aside.
 It's better to take that moment.  Being asked to make big changes, using a tool that
