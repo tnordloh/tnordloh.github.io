@@ -48,7 +48,9 @@ My kayak instructor has seen a lot of dangerous situations in the water.  He say
 "no one ever says 'I panicked, so did this' without whatever they did being the 
 right thing.  Decisions made in a panic are almost always wrong".
 
-Finally, finding a good mindset before running a script like this is important.
+### Handling fearfulness
+
+Finding a good mindset before running a script like this is important.
 Taking that breath beforehand can help you to think through whether you're totally
 prepared to run it, whether all the edits you made are correct, whether you're logged
 in to the right server.  There are pressures to move fast, that need to be put aside.
@@ -56,3 +58,13 @@ It's better to take that moment.  Being asked to make big changes, using a tool 
 is error-prone, and can generate unrepeatable results, is a lot of pressure, and
 it's natural to be resistant to it.  Overcoming this, so you can bring your whole
 mind online, to really examine what you're doing, can only help.
+
+### Handling (over)confidence
+
+It's possibly even more likely to be really sure that everything will work
+perfectly.  We earn that confidence; typically, nothing goes wrong with a
+scripted task.  But it's like crossing the street.  Taking a moment to look
+both ways is warranted, even if we've crossed the same street hundreds of
+times.  Just asking the questions "what system am I logged in to?  Is this
+script going to affect active users? What will do if this script fails" is
+warranted, in the same way.
