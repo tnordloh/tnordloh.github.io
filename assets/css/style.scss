@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+
 .splash {
   display: flex;
   flex-direction: column;
@@ -26,6 +27,8 @@ aside#sidebar {
   padding-right: 20px;
   padding-left: unset;
   background: unset;
+  font-size: 1.0em;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 #main-content {
   float: right;
