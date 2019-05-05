@@ -1,4 +1,4 @@
-# About Me
+# Home
 
 Hi, I'm Tim!  Right now, I'm learning about generating static websites with Jekyll,
 how am I doing so far?  I feel like it's got a bit of a Geocities vibe to it.
