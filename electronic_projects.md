@@ -122,7 +122,7 @@ Here's a pic of what that looks like
 ![photo](images/bios_image.jpg)
 
 and a wiring diagram, to really spell it out:
-![wiring diagram](images/bios_wiring.png)
+![wiring diagram](images/bios_wiring.jpg)
 
 For the Raspberry Pi, I was missing the /dev/spidev0.0 files.  Here are the 
 steps I had to take, to make them appear:
