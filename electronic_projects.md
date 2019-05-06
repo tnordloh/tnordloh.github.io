@@ -61,9 +61,9 @@ and a
 completed the project.  This is one the simplest projects I've built, and one of 
 the most expensive, but my desk is pretty comfortable.
 The desk in 'sit on the floor' mode:
-![when I want to sit on the floor](./images/lowered_desk.jpg)
+![floor-sitting mode](./images/lowered_desk.jpg)
 The desk in 'sit in the chair' mode: 
-![when I want to sit on the chair](./images/raised_desk.jpg)
+![chair-sitting mode](./images/raised_desk.jpg)
 
 ## wii-motion quad copter ##
 
@@ -119,7 +119,7 @@ map the MISO and MOSI ports -- which one goes to "SO/SI01", and which one
 goes to "SI/SO0".  I eventually found [this link](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=136912) that labeled all of the ports; here's a pic, with what I ended up with; an external power supply, set to 1.5 volts, the chip clip seen in some of the other links, and the flashrom tool.
 
 Here's a pic of what that looks like
-![photo](images/bios_image.jpg)
+![Raspberry PI wired to chip clip](images/bios_image.jpg)
 
 and a wiring diagram, to really spell it out:
 ![wiring diagram](images/bios_wiring.jpg)
