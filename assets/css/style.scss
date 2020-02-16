@@ -23,6 +23,11 @@
     /* z-index: -1; */
 }
 
+body {
+  font-family: serif;
+  font-size: 20px;
+}
+
 header {
     padding: 0px;
     border: 0px;
@@ -32,13 +37,14 @@ header h1 {
   margin-left: 0px;
 }
 menu {
-  //position: absolute;
   padding-left: 0px;
-  font-size: 1.3em;
-  font-family: serif;
+  margin: 0em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.0em;
 }
 
-ul {
+menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,22 +52,55 @@ ul {
   padding-left: 20px;
 }
 
-li {
+menu li {
+  background: rgb(194, 187, 173);
+  padding: 16px;
   float: left;
 }
 
-li a {
-  padding: 16px;
-  float: left;
-  display: block;
+menu li a {
   text-decoration: none;
 }
 
-li a:hover {
+menu li a:hover {
   color: #7a9ae2;
 }
-:window-inactive
+
 #main-content {
-  float: bottom;
   width: 690px;
+  font-family: serif;
+}
+#main-content h1 {
+  text-indent: unset;
+  font-family: serif;
+  font-size: 1.8em;
+}
+#main-content h2 {
+  font-size: 1em;
+  font-family: serif;
+  font-weight: unset;
+}
+
+@media only screen and (min-width: 375px) {
+  #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before {
+      padding-right: 0;
+      margin-left: 0;
+      content: none;
+  }
+  menu {
+  }
+  menu ul {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    padding-left: unset;
+  }
+  menu li {
+    float: none;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(198, 175, 129);
+    //display: block;
+  }
 }
