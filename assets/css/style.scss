@@ -20,12 +20,12 @@
     position: absolute;
     top: 0px;
     width: 100%;
-    /* z-index: -1; */
 }
 
 body {
   font-family: serif;
   font-size: 20px;
+  width: 100%;
 }
 
 header {
@@ -37,23 +37,26 @@ header h1 {
   margin-left: 0px;
 }
 menu {
-  padding-left: 0px;
+  padding: 0px;
   margin: 0em;
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
+  //justify-content: center;
   font-size: 1.0em;
 }
 
 menu ul {
+  background: #0A0A09;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0%;
+  padding-left: 0%;
   overflow: hidden;
-  padding-left: 20px;
 }
 
 menu li {
-  background: rgb(194, 187, 173);
+  background: #0A0A09;
   padding: 16px;
   float: left;
 }
@@ -81,26 +84,28 @@ menu li a:hover {
   font-weight: unset;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 320px) and (max-width: 700px) {
   #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before {
       padding-right: 0;
       margin-left: 0;
       content: none;
   }
-  menu {
-  }
   menu ul {
     list-style-type: none;
     width: 100%;
     overflow: hidden;
-    padding-left: unset;
+    padding: unset;
   }
   menu li {
+    height: 0.5em;
     float: none;
     text-align: center;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(198, 175, 129);
-    //display: block;
+  }
+  .splash {
+    height: 100%;
+    min-height: 4.0625rem;
   }
 }

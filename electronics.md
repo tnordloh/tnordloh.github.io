@@ -1,6 +1,6 @@
-# Electronic projects #
+# Electronics #
 
-  - [Electronic projects](#electronic-projects)
+  - [Electronics](#electronics)
   - [16-port plant monitor](#16-port-plant-monitor)
   - [Snake enclosure monitor](#snake-enclosure-monitor)
   - [adjustable-height desk](#adjustable-height-desk)
