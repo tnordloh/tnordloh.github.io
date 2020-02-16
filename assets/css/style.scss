@@ -93,6 +93,7 @@ menu li a:hover {
   menu ul {
     list-style-type: none;
     width: 100%;
+    display: unset;
     overflow: hidden;
     padding: unset;
   }
