@@ -6,6 +6,6 @@ If you're a potential employer, here's what you want to probably know; I'm a Rub
 
 I've been working in IT for the last 22+ years.  For most of that time I was on-call for system administration work; check servers, bring them up when they're down.  I've even done a fair amount of datacenter work; Bringing up new servers, managing patch panels, and ILO networks, running cables, managing cooling systems, writing and exercising disaster recovery procedures, managing system and data backups, SAN infrastructure, and a bunch of other things that to into managing a datacenter.
 
-Along with this kind of work, I've participated in several larger scale software deployments, with the end result of monitoring internal infrastructure, which extended across the continental United States, as well as Australia and Europe.  Large-scale monitoring, brought into a single pane.
+Along with this kind of work, I've participated in several larger scale deployments of monitoring systems, which extended across the continental United States, as well as Australia and Europe.  Large-scale monitoring, brought into a single pane.  This entailed building overall solutions for common devices, as well as system-specific solutions for in-house products.
 
 My interest is to take what I know about System Administration, and apply it to software development. There's a lot of room in the industry for building more reliable software solutions.
