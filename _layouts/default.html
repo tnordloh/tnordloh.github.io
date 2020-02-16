@@ -26,16 +26,16 @@
       </figure>
     </header>
 
+    <menu>
+      <ul>
+        <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/posts.html' | relative_url }}">Posts</a></li>
+        <li><a href="{{ '/origami.html' | relative_url }}">Origami</a></li>
+        <li><a href="{{ '/electronic_projects.html' | relative_url }}">Electronic Projects</a></li>
+      </ul>
+    </menu>
     <div id="content-wrapper">
       <div class="inner clearfix">
-        <aside id="sidebar">
-          <ul>
-            <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/posts.html' | relative_url }}">Posts</a></li>
-            <li><a href="{{ '/origami.html' | relative_url }}">Origami</a></li>
-            <li><a href="{{ '/electronic_projects.html' | relative_url }}">Electronic Projects</a></li>
-          </ul>
-        </aside>
         <section id="main-content">
           {{ content }}
         </section>

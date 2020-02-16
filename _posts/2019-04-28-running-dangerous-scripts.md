@@ -35,36 +35,12 @@ prioritize removal of these pain points.  Here are some possible scenarios to th
 * If you just added did a copy+paste of 50 lines of a script, made 20 edits, start the script, then realize you missed an edit.
 * If you started the script in production, when you should have run it in dev.
 
-There are two choices in these scenarios.  Frantically hit the `ctrl+c` 20 times
-in a row, or let it finish.  It's good to ask the question.  Once, when I
-ran a script in the wrong environment, I panicked and killed the script with 
-`ctrl+c`.  This ended up corrupting tables, and required the DBA to do a
-restore on one of our tables, which couldn't handle the partial edit.  It 
-would have been better if I'd let the script finish, and told him, so he 
-could just repair the records, rather than killing it.  I essentially turned a
-20-minute fix into a 4-hour rebuild.
-
-My kayak instructor has seen a lot of dangerous situations in the water.  He says 
-"no one ever says 'I panicked, so did this' without whatever they did being the 
-right thing.  Decisions made in a panic are almost always wrong".
+There are two choices in these scenarios.  Hit the `ctrl+c`, or let it finish.  It can be helpful to know the best response beforehand.  If the script is modifying data, without any sort of rollback capability, it might be better to let it finish, rather than have partial conversion.
 
 ### Handling fearfulness
 
-Finding a good mindset before running a script like this is important.
-Taking that breath beforehand can help you to think through whether you're totally
-prepared to run it, whether all the edits you made are correct, whether you're logged
-in to the right server.  There are pressures to move fast, that need to be put aside.
-It's better to take that moment.  Being asked to make big changes, using a tool that
-is error-prone, and can generate unrepeatable results, is a lot of pressure, and
-it's natural to be resistant to it.  Overcoming this, so you can bring your whole
-mind online, to really examine what you're doing, can only help.
+Finding a good mindset before running a script like this is important. Taking that breath beforehand can help you to think through whether you're totally prepared to run it, whether all the edits you made are correct, whether you're logged in to the right server.  There are pressures to move fast, that need to be managed. Overcoming this, so you can bring your whole mind online, to really examine what you're doing, can only help.
 
 ### Handling (over)confidence
 
-It's possibly even more likely to be really sure that everything will work
-perfectly.  We earn that confidence; typically, nothing goes wrong with a
-scripted task.  But it's like crossing the street.  Taking a moment to look
-both ways is warranted, even if we've crossed the same street hundreds of
-times.  Just asking the questions "what system am I logged in to?  Is this
-script going to affect active users? What will do if this script fails" is
-warranted, in the same way.
+It's possibly even more likely to be really sure that everything will work perfectly.  Typically, we've earn that confidence, if the script has always run perfectly in the past. Take a moment to make sure you're logged in to the right system, to think through who the script will affect, and how you'd recover from the script aborting. 

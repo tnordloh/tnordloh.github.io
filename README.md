@@ -1,9 +1,6 @@
-# Home
+Hi, I'm Tim!
 
-Hi, I'm Tim!  Right now, I'm learning about generating static websites with Jekyll,
-how am I doing so far?  I feel like it's got a bit of a Geocities vibe to it.
-
-So, about me; I like doing origami, I live in the Denver Metro area, and I'm light
+About me; I like doing origami, I live in the Denver Metro area, and I'm light
 on my feet.  I play the guitar, but I'm only okay at that.
 
 If you're a potential employer, here's what you want to probably know; I'm a decent

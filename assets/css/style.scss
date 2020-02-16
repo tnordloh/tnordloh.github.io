@@ -22,18 +22,7 @@
     width: 100%;
     /* z-index: -1; */
 }
-aside#sidebar {
-  float: left;
-  padding-right: 20px;
-  padding-left: unset;
-  background: unset;
-  font-size: 1.0em;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-}
-#main-content {
-  float: right;
-  width: 690px;
-}
+
 header {
     padding: 0px;
     border: 0px;
@@ -41,4 +30,38 @@ header {
 header h1 {
   width: unset;
   margin-left: 0px;
+}
+menu {
+  //position: absolute;
+  padding-left: 0px;
+  font-size: 1.3em;
+  font-family: serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 16px;
+  float: left;
+  display: block;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #7a9ae2;
+}
+:window-inactive
+#main-content {
+  float: bottom;
+  width: 690px;
 }
